@@ -13,14 +13,12 @@ interface Props {
 }
 
 export function TodoItem({ todo, onDeleteTodo, onCompleteTodo }: Props) {
-  const [todoCompleted, setTodoCompleted] = useState(false);
 
   function handleDeleteTodo() {
     onDeleteTodo(todo.id);
   }
 
   function handleCompleteTodo() {
-    setTodoCompleted(oldState => !oldState);
     onCompleteTodo(todo.id)
   }
 
