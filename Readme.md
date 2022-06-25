@@ -40,6 +40,14 @@ Instale os pacotes:
 npm install
 ```
 
+Rode o projeto:
+
+```
+npm run dev
+```
+
+Abra o navegado na porta [http://localhost:3000](http://localhost/3000)
+
 ## 🛠️ Construído com
 
 * [ReactJS](https://reactjs.org/) - Biblioteca utilizada
