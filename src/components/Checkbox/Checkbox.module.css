@@ -1,0 +1,42 @@
+.checkbox {
+  position: relative;
+}
+
+.checkbox input {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.checkbox span {
+  display: block;
+  height: 18px;
+  width: 18px;
+  border: 2px solid var(--blue-500);
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox span::before {
+  content: '\2713';
+  color: var(--white);
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  line-height: 14px;
+  position: absolute;
+  inset: 0;
+  background-color: var(--purple-500);
+  transform: scale(0);
+  transition: transform 0.1s ease;
+  border-radius: 4px;
+}
+
+.checkbox input:checked + span {
+  border-color: var(--purple-500);
+}
+
+.checkbox input:checked + span::before {
+  transform: scale(1);
+}

@@ -1,0 +1,57 @@
+.todoItem {
+  width: 100%;
+  min-height: 72px;
+  padding: 16px;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+
+  display: flex;
+  align-items: start;
+  gap: 12px;
+  animation: fadeIn 0.3s ease;
+}
+
+.todoItem p {
+  flex: 1;
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+p.completed {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+
+.todoItem button {
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 0;
+  color: var(--gray-300);
+  transition: color 0.2s ease;
+}
+
+.todoItem button:hover {
+  color: var(--red-500);
+}
+
+.todoItem + .todoItem {
+  margin-top: 12px;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+} 

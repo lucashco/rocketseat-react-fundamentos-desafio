@@ -1,0 +1,21 @@
+
+.header {
+  background-color: var(--gray-700);
+}
+
+.headerContainer {
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-inline: 16px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContainer {
+  max-width: 736px;
+  margin-top: -24px;
+  margin-inline: auto;
+  padding-inline: 16px;
+}
