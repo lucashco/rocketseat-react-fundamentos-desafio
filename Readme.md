@@ -28,7 +28,7 @@ Node.js >= 12.2.0.
 ### 🔧 Instalação
 
 
-Acesse na pasta baixada pelo git clone:
+Acesse a pasta baixada pelo git clone:
 
 ```
 cd rocketseat-react-fundamentos-desafio
