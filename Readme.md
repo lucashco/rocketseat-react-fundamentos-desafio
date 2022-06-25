@@ -1,6 +1,6 @@
 # TODO APP
 
-Esse projeto foi desenvolvido como desafio no final do módulo de fundamentos de react do curso Ignite da @Rocketseat
+Esse projeto foi desenvolvido como desafio no final do módulo de fundamentos de react do curso Ignite da [@Rocketseat](https://www.rocketseat.com.br/)
 
 ## ✨ Funcionalidades
 
